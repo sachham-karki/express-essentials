@@ -1,0 +1,23 @@
+{
+  "name": "express-essentials",
+  "type":"module",
+  "version": "1.0.0",
+  "description": "Sachham's Express Portfolio.",
+  "main": "index.js",
+  "scripts": {
+     "start":"nodemon --experimental-json-modules --exec babel-node index.js",
+     "debug": "set DEBUG=express:* & nodemon --experimental-json-modules --exec babel-node index.js "
+  },
+  "author": "Sachham Karki",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.18.10"
+  }
+}
